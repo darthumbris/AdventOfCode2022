@@ -21,7 +21,6 @@ impl Ord for Packet{
         }
     }
 }
-
 fn pp(d:&str)->(Packet,usize){
     let n=d.chars().take_while(|c|if let '0'..='9'=c{true}else{false}).collect::<String>();
     if n.len()>0{return(Packet::Int(n.parse::<i32>().unwrap()),n.len())}

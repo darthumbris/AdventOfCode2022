@@ -1,0 +1,4 @@
+Since the point must be one unit outside of 4 diamonds, 
+if you expand each diamond by one unit: when taking each side of each diamond as clockwise vectors,
+ there should only be one point that is the intersection of four vectors 
+ where the the 1st/2nd and 3rd/4th are colinear and opposite, and 1st and 3rd are perpendicular.
